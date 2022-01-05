@@ -1,6 +1,6 @@
 {
   "name": "xp-css-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "xp css react components",
   "source": "src/index.tsx",
   "main": "dist/index.js",
@@ -30,10 +30,14 @@
     "prettier": "latest"
   },
   "dependencies": {
-    "@parcel/packager-ts": "^2.0.1",
+    "@parcel/packager-ts": "latest",
     "react": "latest",
     "react-dom": "latest",
     "typescript": "latest",
-    "xp.css": "^0.3.0"
+    "xp.css": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjercus/xp-css-react"
   }
 }

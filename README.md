@@ -21,4 +21,8 @@ npm i xp-css-react
 
 ### 1.0.0 (5 januari 2021)
 
-- introduced the Window, WindowBody, TitleBar and WindowWithTitleBarProps components
+- introduced the Window, WindowBody, TitleBar and WindowWithTitleBar components
+
+### 1.0.1 (5 januari 2021)
+
+- fixed bug where the WindowBody was not used in WindowWithTitleBar

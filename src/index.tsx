@@ -43,6 +43,6 @@ type WindowWithTitleBarProps = TitleBarProps & WindowBodyProps & WindowProps;
 export const WindowWithTitleBar = (props: WindowWithTitleBarProps) => (
   <Window id={props.id}>
     <TitleBar text={props.text} />
-    {props.children}
+    <WindowBody>{props.children}</WindowBody>
   </Window>
 );
