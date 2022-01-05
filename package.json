@@ -1,12 +1,12 @@
 {
   "name": "xp-css-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "xp css react components",
   "source": "src/index.tsx",
   "main": "dist/index.js",
   "types": "dist/types.d.ts",
   "files": [
-    "dist/index.js", "dist/types.d.ts", "dist/index.js.map", "dist/types.d.ts.map"
+    "dist/*"
   ],
   "scripts": {
     "build": "npm i; parcel build src/index.tsx --no-autoinstall",
@@ -23,10 +23,10 @@
   "author": "tjercus",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-typescript-types": "latest",
+    "@parcel/transformer-typescript-types": "^2.1.0",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "parcel": "latest",
+    "parcel": "^2.1.0",
     "prettier": "latest"
   },
   "dependencies": {

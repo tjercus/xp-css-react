@@ -26,3 +26,8 @@ npm i xp-css-react
 ### 1.0.1 (5 januari 2021)
 
 - fixed bug where the WindowBody was not used in WindowWithTitleBar
+
+### 1.0.2 (5 januari 2021)
+
+- fixed bug where the build did not include the styling
+
